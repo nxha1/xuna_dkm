@@ -23,7 +23,7 @@ html {
     display: flex;
 }
 .wrap-top {
-    height: 150px;
+    height: 80px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -41,11 +41,6 @@ html {
     position: relative;
 }
 
-.navbar__sticky {
-    position: sticky;
-    top: 0;
-    width: 100%;
-}
 
 .wrap-bottom-last {
     background-color: #8d0003;
@@ -55,6 +50,10 @@ html {
     width: 1200px;
     margin: 0 auto;
     max-width: 100%;
+}
+
+.grid__full {
+    width: 100%;
 }
 
 .grid__row {
